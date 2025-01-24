@@ -14,7 +14,7 @@ public class RequestScopeController {
     }
 
     @RequestMapping("input")  //htmlと合わせる
-    public String input(String name, Model model){
+    public String input(String name, Model model){  //ModelがFormとの接続になってる
 
         model.addAttribute("hogehoge", name);  //左がキー
 
