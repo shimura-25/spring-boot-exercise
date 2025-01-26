@@ -6,12 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-        <span th:text="${session.name}"></span>さん&nbsp;こんにちは
-
-    <br>
-
-   <form th:action="@{/Training-Scope/print}" method="post">
-        <button>マイページ</button>
-   </form>
+    メールアドレス：<span th:text="${session.name}"></span><br>
+    パスワード：<span th:text="${session.pass}"></span>
 </body>
 </html>
